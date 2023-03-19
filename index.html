@@ -1,0 +1,136 @@
+<html>
+<head>
+    <title> Tekhne</title>
+    <link rel="stylesheet" href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width =device-width, intial-scale=1">
+    <style>
+        body {
+            background: #11100F;
+            color: white;
+        }
+    
+    </style>
+</head>
+<body>
+<section id='banner'>
+    <div class="banner-text">
+        <h1>Tekhne</h1>
+        <p>The Home Of Mysteries And Enchanting Art Work</p>
+        <div class="banner-btn">
+            <a target="_blank" href='https://www.instagram.com/_.tekhne._187/'><span></span>Collections</a>
+            <a href='#'><span></span>Business</a>
+        </div>
+    </div>
+    
+</section>
+    
+
+<div id="sideNav">
+    <nav>
+    <ul>
+        <li><a href='#'>HOME</a></li>
+        <li><a target="_blank"  href='https://www.instagram.com/_.tekhne._187/'>COLLECTIONS</a></li>
+        <li><a href='#'>BUSSINESS</a></li>
+        <li><a href='#'>MEDIA</a></li>
+        <li><a href='#'>CONTACT</a></li>   
+    </ul>
+    </nav>
+    
+</div>
+<div id='menuBtn'>
+    <img src="Images/Menu.png" id="menu">
+    
+</div>
+    
+<!--Features-->
+    
+<section id='feature';>
+<div>
+<u style="font-family: sans-serif; font-size: 36px"> ABOUT US
+    <br>
+    <br></u>
+<p class="key9" style="font-family:sono"> We're an online art library and bookstore providing artists, students,
+    <br>
+    and enthusiasts with access to a vast collection of resources to enhance their knowledge and appreciation
+    <br>
+    of the arts. We're committed to creating a welcoming and inclusive community for our customers,
+    <br>
+    Thank you for choosing us as your go-to resource for all things art-related!</p>
+</div>
+    
+<div class='feature-box'>
+    <u style='font-size: 36px; font-family: serif' >
+        <br>
+        <br>
+        <br>
+        OUR COLLECTIONS</u>
+</div>
+        <h1 class="text1" style="">
+        Our website offers an extensive collection 
+        <br>
+        of artistic images to choose from.
+        <br>
+        From quality images to modern abstract designs, 
+        <br>
+        we have it all.You'll surely find the 
+        <br>
+        perfect art piece to suit your taste and style.</h1>
+    
+    <div class="collection-img-1">
+        <a target="_blank" href="https://www.instagram.com/p/CpCt996v0At/?next=%2F"><img style="height: 300px; border: 7px solid #fff; border-radius: 10px" src="Images/Image%202.jpg"></a>
+    </div>
+    
+    <h1 class="text2" style="">
+        We pride ourselves on providing high-quality 
+        <br>
+        art pieces that are carefully curated.
+        <br>
+        Our collection features exceptional craftsmanship, 
+        <br>
+        attention to detail, and vibrant colors.
+        <br>
+        Experience the beauty and quality of our art pieces, 
+        <br>
+        and elevate your space with timeless pieces.</h1>
+    
+    <div class="collection-img-2">
+        <a target="_blank" href="https://www.instagram.com/p/CpCzN_0vYsT/?next=%2F" meta name="viewport" content="width=device-width"><img style="height: 300px; top: 300px; border: 7px solid #393432; border-radius: 10px" src="Images/Image1.jpg"></a>
+    </div>
+    
+    <h1 class="text3" style=""> VISIT OUR INSTAGRAM PAGE TO SEE OUR COLLECTION</h1>
+    <a class="key1" target="_blank" href="https://www.instagram.com/_.tekhne._187/"><img class="name1" src="Images/INSTA.jpg" style="" ></a> 
+        
+        
+</section>
+    
+    
+<script>
+var menBtn = document.getElementById('menuBtn')
+var sideNav = document.getElementById('sideNav')    
+var menu = document.getElementById('menu')    
+
+sideNav.style.right = '-250px';
+
+menBtn.onclick = function(){
+    if(sideNav.style.right == '-250px'){
+        sideNav.style.right = '0';
+        menu.src = 'images/close.png';
+    }
+    else{
+        sideNav.style.right = '-250px';
+        menu.src = 'images/menu.png';
+    }
+    
+    
+}
+</script>
+    
+</body>
+    
+</html>

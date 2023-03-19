@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cardo', serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Sono', sans-serif;
+}
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.35),#000000),url(Images/Background%20Image.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 250px;
+}
+.banner-text h1{
+    font-size: 130px;
+    font-family: 'Cardo', serif;
+}
+.banner-text p{
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width: 170px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20 10px;
+    padding: 15px 0;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px / 30px;
+    position: relative;
+    z-index: 1;
+    transition: color 0.3s;
+    font-family: 'Cardo', serif;
+    font-size: 19px;
+}
+.banner-btn a span{
+    width: 0%; 
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #c6cccc;
+    border-radius: 30px / 30px;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+    border-radius: 30px;
+}
+.banner-btn a:hover{
+    color: #000;
+    border-radius: 30px / 30px;
+    border: none;
+}
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250;
+    top: 0;
+    background: #17131a;
+    z-index: 2;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Cardo', serif;
+}
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    background: #17131a;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menuBtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+@media screen and (max-width: 770px){
+    .banner-text h1{
+        font-size: 44px;
+        font-family: 'Cardo', serif;
+    }
+    .banner-btn a{
+        display: block;
+        margin: 20px auto;
+    }
+    
+}
+
+/*--feature--*/
+
+#feature{
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Cardo', serif;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+    font-family: 'Cardo', serif;
+    
+}
+.title-text p{
+    margin: none;
+    color: #000000;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Cardo', serif;    
+}
+
+.feature{
+    flex-basis: 50%
+}
+
+.features-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.features-img img{
+    width: 70%
+}
+.collection-img-1{
+    position: relative;
+    left: 500px;
+    top: -50px;
+    flex-shrink: 100%;
+}
+.collection-img-2{
+    position: relative; 
+    right: 500px;
+    top: -170px;  
+    flex-shrink: 100%;
+}
+
+.text1{
+    position: relative; 
+    right: 390px; 
+    top: 170px; 
+    font-size: 24px; 
+    font-family: 'Sono'; 
+}
+
+.text2{
+    position: relative;
+    left: 390px; 
+    top: 80px;
+    font-size: 24px; 
+    font-family: Sono;
+}
+
+.text3{
+    font-family: sans-serif;
+    font-size: 26px; 
+    text-align: center;
+}
+
+.name1{
+    height: 130px;
+    top: 300px;
+}
+
+@media screen and (max-width: 770px){
+    .collection-img-1{
+        position: relative;
+        left: 00px;
+        top: -250px;
+        flex-shrink: 100%;
+    }
+    
+    .text1{
+        right: 0px;
+        top: 400px;
+    }
+    
+    .collection-img-2{
+        right: 0px;
+        top: -220px;
+    }
+    
+    .text2{
+        left: 0px;
+        top: 900px;
+        color: #11100F;
+    }
+    
+    .key9{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+    
